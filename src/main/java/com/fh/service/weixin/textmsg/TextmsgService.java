@@ -26,6 +26,7 @@ public class TextmsgService {
 	
 	/*
 	* 删除
+	* 
 	*/
 	public void delete(PageData pd)throws Exception{
 		dao.delete("TextmsgMapper.delete", pd);
